@@ -1,0 +1,44 @@
+UTC date: 2026-11-19T13:06:27.900794+00:00
+Source: h000 (10.0.0.2), destination: h300 (10.3.0.2)
+Command: h000 iperf -c 10.3.0.2 -u -b 1M -P 8 -t 20 -p 5001 -f m
+
+------------------------------------------------------------
+Client connecting to 10.3.0.2, UDP port 5001
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 10.0.0.2 port 46051 connected with 10.3.0.2 port 5001
+[  5] local 10.0.0.2 port 47613 connected with 10.3.0.2 port 5001
+[  7] local 10.0.0.2 port 50531 connected with 10.3.0.2 port 5001
+[  2] local 10.0.0.2 port 41890 connected with 10.3.0.2 port 5001
+[  4] local 10.0.0.2 port 39240 connected with 10.3.0.2 port 5001
+[  8] local 10.0.0.2 port 38662 connected with 10.3.0.2 port 5001
+[  3] local 10.0.0.2 port 47996 connected with 10.3.0.2 port 5001
+[  6] local 10.0.0.2 port 47939 connected with 10.3.0.2 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  6] 0.0000-20.0193 sec  2.51 MBytes  1.05 Mbits/sec
+[  6] Sent 1788 datagrams
+[  3] 0.0000-20.0193 sec  2.51 MBytes  1.05 Mbits/sec
+[  3] Sent 1788 datagrams
+[  4] 0.0000-20.0193 sec  2.51 MBytes  1.05 Mbits/sec
+[  4] Sent 1788 datagrams
+[  7] 0.0000-20.0193 sec  2.51 MBytes  1.05 Mbits/sec
+[  7] Sent 1788 datagrams
+[  8] 0.0000-20.0193 sec  2.51 MBytes  1.05 Mbits/sec
+[  8] Sent 1788 datagrams
+[  1] 0.0000-20.0193 sec  2.51 MBytes  1.05 Mbits/sec
+[  1] Sent 1788 datagrams
+[  2] 0.0000-20.0193 sec  2.51 MBytes  1.05 Mbits/sec
+[  2] Sent 1788 datagrams
+[  5] 0.0000-20.0194 sec  2.51 MBytes  1.05 Mbits/sec
+[  5] Sent 1788 datagrams
+[SUM] 0.0000-20.0194 sec  20.0 MBytes  8.40 Mbits/sec
+[SUM-8] Sent 14304 datagrams
+[  3] WARNING: did not receive ack of last datagram after 10 tries.
+[  5] WARNING: did not receive ack of last datagram after 10 tries.
+[  9] WARNING: did not receive ack of last datagram after 10 tries.
+[ 13] WARNING: did not receive ack of last datagram after 10 tries.
+[  7] WARNING: did not receive ack of last datagram after 10 tries.
+[  8] WARNING: did not receive ack of last datagram after 10 tries.
+[  6] WARNING: did not receive ack of last datagram after 10 tries.
+[  4] WARNING: did not receive ack of last datagram after 10 tries.
